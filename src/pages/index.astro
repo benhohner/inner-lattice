@@ -1,0 +1,47 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const posts = await getCollection('posts');
+const sortedPosts = posts.sort((a, b) => {
+  const dateA = a.data.date instanceof Date ? a.data.date : new Date(a.data.date);
+  const dateB = b.data.date instanceof Date ? b.data.date : new Date(b.data.date);
+  return dateB.getTime() - dateA.getTime();
+});
+
+function formatDate(date: Date): string {
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  });
+}
+---
+
+<Base title="inner lattice">
+  <section class="posts">
+    {sortedPosts.length === 0 ? (
+      <p class="empty">No posts yet.</p>
+    ) : (
+      <ul class="post-list">
+        {sortedPosts.map((post) => (
+          <li class="post-item">
+            <a href={`/${post.slug}`} class="post-link">
+              <span class="post-title">{post.data.title}</span>
+              <span class="post-meta">
+                <time datetime={post.data.date.toISOString()}>
+                  {formatDate(post.data.date)}
+                </time>
+                <span class="tags">
+                  {post.data.tags.map((tag) => (
+                    <span class="tag">{tag}</span>
+                  ))}
+                </span>
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+  </section>
+</Base>
