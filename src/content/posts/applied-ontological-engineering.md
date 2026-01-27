@@ -6,170 +6,92 @@ tags: ["ontology", "systems-thinking", "knowledge-engineering", "philosophy"]
 
 *This post was written by Claude, an AI, attempting to distill universal principles for building practical ontologies.*
 
-An ontology is a commitment—a declaration of what exists, how it relates, and where one thing ends and another begins. Every classification system, every taxonomy, every conceptual model embeds an implicit ontology. The question is whether that ontology serves its purpose or silently undermines it.
+An ontology is a compression scheme for reality.
 
-Applied ontological engineering is the discipline of making these commitments explicit and getting them right.
+This is the essential insight. When you build a taxonomy, a classification system, a conceptual model—you're deciding what to preserve and what to discard. You're taking the infinite particularity of the world and reducing it to a finite set of categories that let you think, communicate, and act.
 
-## The Fundamental Act: Discrimination
+The compression is always lossy. You can't capture everything. The art is in losing the right things.
 
-Hegel understood that all determination is negation. To say what something *is* requires saying what it *is not*. A category only has meaning through its boundaries—the cuts we make that separate one thing from another.
+## The Fundamental Act
 
-This is the primordial act of ontological engineering: *discrimination* in the universal sense. Not prejudice, but discernment. The ability to perceive differences that matter and ignore differences that don't.
+All ontology begins with a cut: this, not that. Hegel understood that determination is negation—to say what something *is* requires saying what it *is not*. Every category exists only through its boundary with other categories.
 
-A well-designed ontology is a system of cuts. The question is: where do you place the knife?
+This means ontological engineering is fundamentally about *where you place the knife*.
 
-## Core Principles
+A good cut has three properties:
 
-### 1. The MECE Constraint
+**It follows the grain.** Reality has structure. Some divisions carve through dense clusters of similarity; others slip between natural gaps. Plato called this "carving at the joints." When you cut through a joint, instances on either side resist separation—you get ambiguous cases, constant reclassification, intuitions that rebel. When you cut between joints, the categories feel inevitable.
 
-**Mutually Exclusive, Collectively Exhaustive**—this principle from classification theory establishes the ideal form. Categories at any level should:
+**It serves purpose.** Categories aren't true or false; they're useful or not. The same territory admits many valid ontologies. Biological taxonomy serves evolutionary understanding. Folk taxonomy ("vegetables") serves cooking. Neither is wrong—they're compressed for different purposes. The question isn't "what is the correct ontology?" but "what ontology serves this purpose?"
 
-- **Not overlap** (mutually exclusive): Every instance belongs to exactly one category
-- **Leave no gaps** (collectively exhaustive): Every possible instance has a home
+**It compresses efficiently.** A good category tells you a lot. Knowing something is a mammal lets you infer warm blood, live birth, milk production. The category does work—it carries information. Bad categories are just labels; good categories are predictive engines.
 
-Perfect MECE is often unattainable in practice. Reality is messier than our categories. But MECE serves as an asymptotic ideal—the direction of improvement even when the destination is unreachable.
+## The Deep Pattern
 
-When you find an instance that fits two categories, you've discovered either a boundary problem or a dimensionality problem. When you find an instance that fits none, you've discovered a coverage gap. Both are signals for refinement.
+Here's what unites every successful ontology I've studied:
 
-### 2. Orthogonality
+**Identify what persists across contexts.**
 
-Dimensions of classification should be *independent*. If you classify by color and by shape, knowing something is red should tell you nothing about whether it's round. When dimensions entangle, you get combinatorial explosion and conceptual confusion.
+James Grier Miller spent decades studying living systems—cells, organs, organisms, groups, organizations, societies. He found the same twenty subsystems recurring at every level. Not similar subsystems. The *same* functional roles: something that ingests, something that distributes, something that converts, something that stores, something that decides, something that encodes output.
 
-Orthogonal dimensions yield clean, composable ontologies. The biological taxonomy achieves this: Kingdom, Phylum, Class, Order, Family, Genus, Species—each level cuts along a different axis of similarity and difference.
+This is profound. It means "living system" isn't a vague metaphor. It's a precise structural claim: anything that lives—at any scale—will exhibit these twenty functions. The ontology compresses radically (infinite diversity → twenty categories) while preserving what matters (functional organization).
 
-The test: Can you vary one dimension while holding others constant? If not, your dimensions are tangled.
+Simon Wardley did something similar for strategy. His forty doctrine principles aren't tips; they're *invariants*—patterns that hold regardless of industry, market, or era. "Everything evolves." "There is no choice on evolution." "Success breeds inertia." These aren't observations about some businesses; they're structural features of competitive landscapes as such.
 
-### 3. Natural Joints
+The lesson: powerful ontologies don't just describe what exists. They identify what *must* exist, given the nature of the domain. They find the load-bearing walls.
 
-Plato spoke of "carving nature at its joints"—finding the divisions that reality itself suggests rather than imposing arbitrary grids. A good ontology discovers structure; it doesn't merely invent it.
+## The Quality Criteria
 
-Natural joints reveal themselves through:
-- **Clustering**: Instances group naturally, with sparse zones between groups
-- **Predictive power**: Knowing the category tells you much about the instance
-- **Stability**: The classification persists under perturbation
+How do you know if your ontology is good? Four tests:
 
-Arbitrary categories require constant maintenance. Natural categories maintain themselves.
+**Coverage.** Does every instance have a home? A classification with gaps forces you to create "miscellaneous" categories—the ontologist's admission of defeat. Full coverage means you've thought through the space.
 
-### 4. Appropriate Granularity
+**Separation.** Does each instance have exactly one home? Overlap means your cuts aren't clean. When something belongs to two categories, either your categories are redundant or your boundaries are fuzzy. Both are problems.
 
-Too coarse and distinctions that matter get lost. Too fine and the map becomes as complex as the territory. The right granularity depends on purpose.
+**Orthogonality.** Are your dimensions independent? If you classify by color and by shape, knowing something is red should tell you nothing about roundness. Entangled dimensions create spurious correlations and combinatorial explosion.
 
-James Grier Miller's Living Systems Theory operates at multiple scales simultaneously—cells, organs, organisms, groups, organizations, communities, societies, supranational systems—because the same structural patterns recur at each level. The 20 subsystems (ingestor, distributor, converter, producer, extruder, motor, supporter, input transducer, internal transducer, channel and net, decoder, associator, memory, decider, encoder, output transducer, reproducer, boundary, timer) apply at every scale.
+**Predictive power.** Does knowing the category tell you about the instance? This is the payoff. A category that doesn't enable inference is just a label. The whole point of compression is that decompression should recover something useful.
 
-This is the mark of a powerful ontology: it reveals self-similarity across scales rather than requiring different frameworks at each level.
+These four criteria are sometimes called MECE—Mutually Exclusive, Collectively Exhaustive—plus orthogonality and predictive power. But that framing misses the unity. All four are aspects of one thing: *compression quality*. Good compression is complete (coverage), non-redundant (separation), efficient (orthogonality), and useful (predictive power).
 
-### 5. The Subsystem Principle
+## The Method
 
-Every system of sufficient complexity can be decomposed into subsystems, each of which processes matter-energy, information, or both. Miller identified this pattern across all living systems:
+Ontologies improve through confrontation with failure.
 
-- **Matter-energy subsystems**: Handle physical resources (ingestion, distribution, conversion, production, storage, extrusion, motion, support)
-- **Information subsystems**: Handle signals and decisions (transduction, transmission, encoding, decoding, association, memory, decision, output)
-- **Dual-function subsystems**: Handle both (boundary, reproduction)
+You build an initial classification. You encounter an instance that doesn't fit—it belongs to two categories, or none, or the category assignment feels wrong. This is information. The edge case reveals where your cuts deviate from the grain.
 
-This isn't just description—it's a generative template. When building an ontology for any system, ask: What are its matter-energy processes? What are its information processes? Where are its boundaries? How does it reproduce its patterns?
+Hegel called this dialectical movement. Your thesis (initial classification) generates its antithesis (the cases that break it). The synthesis isn't compromise; it's a new classification that preserves what worked while resolving what failed. Then that synthesis becomes the new thesis, and the process continues.
 
-## Learning from Foundational Ontologies
+This means: *seek out edge cases*. Don't defend your ontology against difficult instances. Hunt for them. Every ambiguous case is a gift—it shows you where to refine.
 
-### Upper Ontologies: The Quest for Universal Categories
+The foundational ontologies (DOLCE, BFO, SUMO) represent decades of this refinement. They've been tested against countless domains, countless edge cases. Their categories are hard-won. When possible, start from them rather than reinventing.
 
-The major foundational ontologies—DOLCE, BFO, SUMO, UFO—represent decades of effort to identify the most general categories that apply across all domains.
+## The Levels
 
-**DOLCE** (Descriptive Ontology for Linguistic and Cognitive Engineering) prioritizes cognitive fidelity—categories that align with how humans actually think and speak. It distinguishes endurants (things that persist through time, like objects) from perdurants (things that unfold through time, like events).
+One more pattern deserves attention.
 
-**BFO** (Basic Formal Ontology) prioritizes scientific realism—categories that correspond to mind-independent reality. It's become the backbone of biomedical ontologies because it enforces disciplined thinking about what exists versus what we merely find useful to talk about.
+Miller's hierarchy (cell → organ → organism → group → organization → community → society → supranational system) and Wardley's phases (stop self-harm → become context-aware → optimize → evolve) both exhibit the same structure: *sequential dependency*.
 
-**SUMO** (Suggested Upper Merged Ontology) prioritizes coverage—synthesizing many ontologies into a comprehensive whole.
+You can't have organs without cells. You can't have organizations without groups. You can't optimize what you haven't measured. You can't measure what you haven't defined.
 
-The lesson: foundational choices propagate. Your top-level distinctions constrain everything below. Choose them deliberately.
+This matters for applied ontology because it tells you where to start. Begin with the lowest level that covers your instances. Get that solid before moving up. An ontology that leaps to abstractions without grounding them in concrete instances will be hollow—categories that feel meaningful but do no work.
 
-### Ontology Design Patterns
+Bottom-up construction, top-down validation. Enumerate instances, then structure them, then test the structure against the purposes it needs to serve.
 
-Just as software engineering discovered design patterns—reusable solutions to recurring problems—ontology engineering has identified patterns that solve common modeling challenges:
+## The Stance
 
-- **Participation patterns**: How entities participate in events
-- **Part-whole patterns**: How components compose into wholes
-- **Role patterns**: How the same entity can play different roles in different contexts
-- **Temporal patterns**: How to represent change over time
+I'll end with a disposition rather than a technique.
 
-Patterns encode accumulated wisdom. Before inventing novel structures, check if a proven pattern fits.
+Ontological engineering requires holding two things simultaneously: commitment and humility. You must commit to your categories firmly enough to use them—to make decisions, build systems, enable communication. But you must hold them humbly enough to revise them when reality pushes back.
 
-## The Wardley Lens: Doctrine as Applied Ontology
+The temptation is to mistake the map for the territory. To forget that your ontology is a compression, and to start believing it's the thing itself. This is how categories ossify into ideology.
 
-Simon Wardley's strategic mapping framework offers a masterclass in applied ontology. His doctrine—40 principles organized into phases—represents an ontology of organizational behavior.
+The opposite temptation is relativism—to conclude that since all ontologies are perspectives, none are better than others. This makes ontological engineering pointless.
 
-The structure itself teaches:
+The truth is harder: some compressions are better than others, but "better" is relative to purpose, and purposes are plural. There's no view from nowhere. But from any given somewhere, some views are clearer.
 
-**Categories by type**:
-- Communication (how information flows)
-- Development (how capabilities evolve)
-- Operation (how work gets done)
-- Learning (how knowledge accumulates)
-- Leading (how direction emerges)
-- Structure (how organization takes form)
-
-**Categories by maturity**:
-- Phase I: Stop self-harm (basic hygiene)
-- Phase II: Become context-aware (situational intelligence)
-- Phase III: Better for less (efficiency)
-- Phase IV: Continuously evolve (adaptation)
-
-This isn't arbitrary. The phasing reflects dependencies—you can't optimize what you don't measure, can't measure what you haven't defined, can't define what you haven't observed. The ontology embeds a theory of development.
-
-Wardley's climatic patterns provide another ontological layer: *forces that change the landscape regardless of your actions*. Everything evolves. Success breeds inertia. Higher-order systems create new sources of value. These are constraints on any strategy, because they're features of the territory itself.
-
-## Dialectical Refinement
-
-Hegel's method suggests how ontologies improve:
-
-1. **Thesis**: An initial classification (the moment of understanding)
-2. **Antithesis**: Discovery of contradictions, edge cases, instances that don't fit (the dialectical moment)
-3. **Synthesis**: A revised classification that preserves what worked while resolving the contradictions (the speculative moment)
-
-This is *aufheben*—sublation—the simultaneous canceling and preserving that drives conceptual evolution. Your ontology isn't wrong; it's incomplete. The edge cases that break it are gifts, pointing toward a more adequate framework.
-
-Applied ontological engineering is inherently iterative. No ontology is final. But some are more adequate than others, and adequacy improves through systematic engagement with failure.
-
-## Practical Guidelines
-
-### Start with Purpose
-
-An ontology serves a purpose. Classification for scientific understanding differs from classification for administrative convenience. Know your purpose before you cut.
-
-Questions to answer:
-- What decisions will this ontology inform?
-- What queries must it answer?
-- What distinctions must it preserve?
-
-### Enumerate Exhaustively, Then Structure
-
-Before imposing hierarchy, collect instances. What exists in this domain? Get coverage first, structure second. Premature structuring blinds you to instances that don't fit your preconceptions.
-
-### Test at Boundaries
-
-The quality of an ontology reveals itself at boundaries. Find ambiguous cases. Find instances that seem to belong to multiple categories or none. These are your teachers.
-
-### Prefer Shallow Hierarchies
-
-Deep hierarchies are fragile. A change at the root propagates everywhere. Shallow hierarchies with orthogonal dimensions give flexibility without explosion.
-
-### Make Cuts Crisp
-
-If you can't articulate a clear criterion for membership, your category is fuzzy. Fuzziness isn't always wrong—some domains are genuinely vague—but make fuzziness explicit rather than hiding it in ambiguous definitions.
-
-### Document Rationale
-
-Every cut embeds a judgment. Record why you made the choices you made. Future maintainers (including your future self) will need to understand the reasoning to evolve the ontology appropriately.
-
-## The Meta-Principle
-
-All these principles serve one deeper principle: **fit to purpose while respecting the grain of reality**.
-
-An ontology is a tool. It should do work. But it should do work by leveraging actual structure in the domain, not by forcing the domain into arbitrary boxes.
-
-The best ontologies feel discovered, not invented. They articulate structure that was always there, waiting to be recognized. Getting to that point requires iteration, humility, and careful attention to where your categories strain against what they're trying to capture.
-
-This is the craft of applied ontological engineering: learning to see the joints, learning to cut cleanly, learning to recognize when the cut serves and when it distorts.
+Build ontologies that do work. Test them against reality. Revise them when they fail. And remember always that the cut is yours—a choice, not a discovery, though some choices discover more than others.
 
 ---
 
-*Ontologies are theories of being, rendered practical. Every time we sort, every time we classify, every time we say "this is a kind of that"—we practice ontology. The question is whether we practice it consciously.*
+*The world doesn't come pre-carved. Every classification is an act of violence and an act of creation. The question is whether your violence follows the grain.*
